@@ -1,0 +1,73 @@
+<div class="cell @currentState @(isHighlighted ? "glow-highlight" : "")" @onclick="HandleClick"
+    @oncontextmenu="HandleRightClick" @oncontextmenu:preventDefault="true">
+    <label>@text</label>
+</div>
+
+@code {
+    [Parameter]
+    public CellView[,] cellViews { get; set; }
+
+
+    [Parameter]
+    public int Row { get; set; }
+    [Parameter]
+    public int Col { get; set; }
+
+    private bool isHighlighted;
+    private string currentState = "";
+    private string text = "";
+
+    protected override void OnInitialized()
+    {
+        isHighlighted = false;
+        cellViews[Row, Col] = this;
+    }
+
+    private void HandleClick(MouseEventArgs e)
+    {
+        GameEvents.CellClicked(Row, Col);
+    }
+    private void HandleRightClick(MouseEventArgs e)
+    {
+        GameEvents.CellRightClicked(Row, Col);
+    }
+
+    public void RevealMine()
+    {
+        currentState = "cell-revealed-mine";
+        text = "X";
+        StateHasChanged();
+    }
+
+
+    public void RevealEmptyCell(int neighbouringMines)
+    {
+        currentState = "cell-revealed";
+        text = (neighbouringMines != 0) ? neighbouringMines.ToString() : "";
+        StateHasChanged();
+    }
+
+    public void SetFlag(bool isFlagged)
+    {
+        if (isFlagged)
+        {
+            currentState = "cell-flagged";
+            text = "*";
+        }
+        else
+        {
+            currentState = "";
+            text = "";
+        }
+        StateHasChanged();
+    }
+
+    public async void HighlightAsync(int duration = 2000)
+    {
+        isHighlighted = true;
+        StateHasChanged();
+        await Task.Delay(duration);
+        isHighlighted = false;
+        StateHasChanged();
+    }
+}

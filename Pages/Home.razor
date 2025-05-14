@@ -1,0 +1,136 @@
+﻿@page "/"
+@using MinesweeperDotNET.Pages;
+@inject GameManager gameManager;
+
+
+<PageTitle>Home</PageTitle>
+
+<h1>Minesweeper Game</h1>
+<button @onclick="HandleNewGame">New Game</button>
+<button @onclick="HandleShowHint">Hint</button>
+<select @bind="SelectedDifficulty">
+    @foreach (var difficulty in Enum.GetValues(typeof(Difficulty)))
+    {
+        <option value="@difficulty">@difficulty</option>
+    }
+</select>
+<p>@formattedTime</p>
+<p>@MinesLeft</p>
+<div class="minesweeper-grid">
+    @if (GridInitialized)
+    {
+        @for (int row = 0; row < Grid.Rows; row++)
+        {
+            <div class="row">
+                @for (int col = 0; col < Grid.Columns; col++)
+                {
+                    <CellView @key="@($"cell-{row}-{col}-{gameId}")" cellViews="@cellViews" Row="@row" Col="@col" />
+                }
+            </div>
+        }
+    }
+    else
+    {
+        <p>Loading...</p>
+    }
+</div>
+
+@code {
+    [Inject]
+    private HttpClient Http { get; set; }
+    MinesweeperGrid Grid => gameManager.Grid;
+    private CellView[,] cellViews { get; set; }
+    private bool GridInitialized = false;
+    private Guid gameId = Guid.NewGuid(); // Used to force component recreation
+    private Difficulty _selectedDifficulty;
+    public Difficulty SelectedDifficulty
+    {
+        get
+        {
+            return _selectedDifficulty;
+        }
+        set
+        {
+            _selectedDifficulty = value;
+            GameEvents.DifficultyChanged(value);
+            HandleNewGame();
+        }
+    }
+
+    private System.Timers.Timer timer;
+    private string formattedTime = "00:00";
+    private int MinesLeft;
+
+    protected override void OnInitialized()
+    {
+        SelectedDifficulty = gameManager.CurrentDifficulty;
+        gameManager.SubscribeToEvents();
+        GameEvents.OnGridInitialized += InitializeGridUI;
+        GameEvents.OnMineCellRevealed += RevealMine;
+        GameEvents.OnEmptyCellRevealed += RevealEmptyCell;
+        GameEvents.OnFlagSet += SetFlag;
+        GameEvents.OnFlagCounterUpdate += UpdateMinesLeftCount;
+        GameEvents.OnCellsHighlighted += HighlightCells;
+
+        timer = new System.Timers.Timer(100);
+
+        timer.Elapsed += UpdateTimerDisplay;
+        timer.AutoReset = true;
+        timer.Start();
+
+        GameEvents.NewGame();
+    }
+
+    private void InitializeGridUI(int Rows, int Cols, Difficulty difficulty)
+    {
+        cellViews = new CellView[Rows, Cols];
+        GridInitialized = true;
+    }
+
+    private void UpdateTimerDisplay(object? sender, System.Timers.ElapsedEventArgs e)
+    {
+        if (!gameManager.GameStarted) formattedTime = "00:00.0";
+        else if (gameManager.IsGameOver) formattedTime = gameManager.finalTime.ToString(@"mm\:ss\.f");
+        else formattedTime = gameManager.runningTime.ToString(@"mm\:ss\.f");
+        InvokeAsync(StateHasChanged);
+    }
+
+    private void RevealMine(int Row, int Col)
+    {
+        cellViews[Row, Col].RevealMine();
+    }
+
+    private void RevealEmptyCell(int Row, int Col, int neighbouringMines)
+    {
+        cellViews[Row, Col].RevealEmptyCell(neighbouringMines);
+    }
+
+    private void SetFlag(int Row, int Col, bool isFlagged)
+    {
+        cellViews[Row, Col].SetFlag(isFlagged);
+    }
+    private void HandleNewGame()
+    {
+        gameId = Guid.NewGuid();
+        GridInitialized = false;
+        GameEvents.NewGame();
+    }
+
+    private void UpdateMinesLeftCount(int minesLeft)
+    {
+        MinesLeft = minesLeft;
+        InvokeAsync(StateHasChanged);
+    }
+    private void HandleShowHint(MouseEventArgs args)
+    {
+        GameEvents.ShowHintClicked();
+    }
+
+    public void HighlightCells(List<(int, int)> cellsToHighlight)
+    {
+        foreach (var (row, col) in cellsToHighlight)
+        {
+            cellViews[row, col].HighlightAsync();
+        }
+    }
+}
