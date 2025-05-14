@@ -17,7 +17,15 @@ namespace MinesweeperAPI.Services
 
         public async Task AddGameRecordAsync(MinesweeperGameRecord record)
         {
-            await _httpClient.PostAsJsonAsync("api/gamerecords", record);
+            try
+            {
+                var response = await _httpClient.PostAsJsonAsync("MinesweeperLogs", record);
+                response.EnsureSuccessStatusCode();
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine($"Failed to save game: {ex.Message}");
+            }
         }
     }
 }

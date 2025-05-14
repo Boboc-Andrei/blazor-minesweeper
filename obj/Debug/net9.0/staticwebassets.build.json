@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kr/kY+zezJecsPPlzz8KjJaigolusR2DWYSc3NI9Aa4=",
+  "Hash": "R7QanqIptzzzaI5bH+qhYHwIQ3ukq6xsvE8Af67zT6E=",
   "Source": "MinesweeperDotNET",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "wwjfrncry4",
-      "Integrity": "cLY04bPZucmS+8EY86+sUTk3YfrMX5WvizcsSMP6N3k=",
+      "Fingerprint": "555lrmob0t",
+      "Integrity": "t5/I/KgWUuHBX0eB5etmk9p/w8fZSyunbgRtlmAe/2U=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -2005,8 +2005,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "70umqd7dfi",
-      "Integrity": "Z58uBnlkYNUDkcI3T6TKdWBcTJBC/rZBWDUDOD8ePWw=",
+      "Fingerprint": "m89jvsark9",
+      "Integrity": "enuuXxffb3X+I4Ajji+wxv1aSvkktoUPTwLeiloP0yw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\MinesweeperDotNET.pdb"
@@ -2026,8 +2026,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "wa30teg7s8",
-      "Integrity": "SPqyVNGE4XLEc1hFI0aQmaQAqDXDymSBPmQRlpF/7zc=",
+      "Fingerprint": "07hpqv72s1",
+      "Integrity": "TEmMsLbDfDx7kTbXFOZR6sxunWWQYPQmQPlgNAf2tdU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\webcil\\MinesweeperDotNET.wasm"
@@ -10622,12 +10622,12 @@
       "OriginalItemSpec": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Data.DataSetExtensions.wasm"
     },
     {
-      "Identity": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\s7o3zfsf1t-wa30teg7s8.gz",
+      "Identity": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\s7o3zfsf1t-07hpqv72s1.gz",
       "SourceId": "MinesweeperDotNET",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/MinesweeperDotNET#[.{fingerprint=wa30teg7s8}]!.wasm.gz",
+      "RelativePath": "_framework/MinesweeperDotNET#[.{fingerprint=07hpqv72s1}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -10636,8 +10636,8 @@
       "RelatedAsset": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MinesweeperDotNET.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ea8twp62gz",
-      "Integrity": "yiwqFqVyfITPfopSpyC31AhFK8wERPTxjQc1idkcG+4=",
+      "Fingerprint": "b2c6ow6vyz",
+      "Integrity": "kzpyjhlYvDJazZu5udGprjJZnAkVQnQygJ6lKFPn1h8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MinesweeperDotNET.wasm"
@@ -11189,12 +11189,12 @@
       "OriginalItemSpec": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.wasm"
     },
     {
-      "Identity": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\usigq2tkez-70umqd7dfi.gz",
+      "Identity": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\usigq2tkez-m89jvsark9.gz",
       "SourceId": "MinesweeperDotNET",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/MinesweeperDotNET#[.{fingerprint=70umqd7dfi}]!.pdb.gz",
+      "RelativePath": "_framework/MinesweeperDotNET#[.{fingerprint=m89jvsark9}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -11203,8 +11203,8 @@
       "RelatedAsset": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MinesweeperDotNET.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3rw41w2l9u",
-      "Integrity": "MQCE/i5bgAra7z5fuhbdAax6UM6OQUtUUKGdlD0d8tA=",
+      "Fingerprint": "z9g3jvasvf",
+      "Integrity": "2RscoscKS7njilWIk2zVdQRkj3Ar3qRB7h7MJiOEb6I=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MinesweeperDotNET.pdb"
@@ -11420,7 +11420,7 @@
       "OriginalItemSpec": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Localization.wasm"
     },
     {
-      "Identity": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\vy3jlp6fgb-wwjfrncry4.gz",
+      "Identity": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\vy3jlp6fgb-555lrmob0t.gz",
       "SourceId": "MinesweeperDotNET",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\",
@@ -11434,8 +11434,8 @@
       "RelatedAsset": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3o244ain7l",
-      "Integrity": "fU1qWt8VRoaFBWrQ1pHKHzRsoTQ4iVjwtY2XHUVgyg0=",
+      "Fingerprint": "mz3oz0of5a",
+      "Integrity": "zpLxN9OI4iPl+lzvvQILNYcLGfj+tR/x3idXZPRrUIA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -13309,11 +13309,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cLY04bPZucmS+8EY86+sUTk3YfrMX5WvizcsSMP6N3k=\""
+          "Value": "\"t5/I/KgWUuHBX0eB5etmk9p/w8fZSyunbgRtlmAe/2U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 12:21:34 GMT"
+          "Value": "Wed, 14 May 2025 14:46:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13323,18 +13323,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cLY04bPZucmS+8EY86+sUTk3YfrMX5WvizcsSMP6N3k="
+          "Value": "sha256-t5/I/KgWUuHBX0eB5etmk9p/w8fZSyunbgRtlmAe/2U="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\vy3jlp6fgb-wwjfrncry4.gz",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\vy3jlp6fgb-555lrmob0t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000062289772"
+          "Quality": "0.000062301414"
         }
       ],
       "ResponseHeaders": [
@@ -13344,15 +13344,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16053"
+          "Value": "16050"
         },
         {
           "Name": "ETag",
-          "Value": "\"fU1qWt8VRoaFBWrQ1pHKHzRsoTQ4iVjwtY2XHUVgyg0=\""
+          "Value": "\"zpLxN9OI4iPl+lzvvQILNYcLGfj+tR/x3idXZPRrUIA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 12:21:12 GMT"
+          "Value": "Wed, 14 May 2025 14:33:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13372,19 +13372,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cLY04bPZucmS+8EY86+sUTk3YfrMX5WvizcsSMP6N3k=\""
+          "Value": "W/\"t5/I/KgWUuHBX0eB5etmk9p/w8fZSyunbgRtlmAe/2U=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cLY04bPZucmS+8EY86+sUTk3YfrMX5WvizcsSMP6N3k="
+          "Value": "sha256-t5/I/KgWUuHBX0eB5etmk9p/w8fZSyunbgRtlmAe/2U="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\vy3jlp6fgb-wwjfrncry4.gz",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\vy3jlp6fgb-555lrmob0t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13393,7 +13393,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16053"
+          "Value": "16050"
         },
         {
           "Name": "Content-Type",
@@ -13401,11 +13401,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fU1qWt8VRoaFBWrQ1pHKHzRsoTQ4iVjwtY2XHUVgyg0=\""
+          "Value": "\"zpLxN9OI4iPl+lzvvQILNYcLGfj+tR/x3idXZPRrUIA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 12:21:12 GMT"
+          "Value": "Wed, 14 May 2025 14:33:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13423,7 +13423,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fU1qWt8VRoaFBWrQ1pHKHzRsoTQ4iVjwtY2XHUVgyg0="
+          "Value": "sha256-zpLxN9OI4iPl+lzvvQILNYcLGfj+tR/x3idXZPRrUIA="
         }
       ]
     },
@@ -40981,305 +40981,7 @@
       ]
     },
     {
-      "Route": "_framework/MinesweeperDotNET.70umqd7dfi.pdb",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MinesweeperDotNET.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "46984"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Z58uBnlkYNUDkcI3T6TKdWBcTJBC/rZBWDUDOD8ePWw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 11:55:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "70umqd7dfi"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/MinesweeperDotNET.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Z58uBnlkYNUDkcI3T6TKdWBcTJBC/rZBWDUDOD8ePWw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MinesweeperDotNET.70umqd7dfi.pdb",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\usigq2tkez-70umqd7dfi.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000032878514"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30414"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MQCE/i5bgAra7z5fuhbdAax6UM6OQUtUUKGdlD0d8tA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 11:55:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Z58uBnlkYNUDkcI3T6TKdWBcTJBC/rZBWDUDOD8ePWw=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "70umqd7dfi"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/MinesweeperDotNET.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Z58uBnlkYNUDkcI3T6TKdWBcTJBC/rZBWDUDOD8ePWw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MinesweeperDotNET.70umqd7dfi.pdb.gz",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\usigq2tkez-70umqd7dfi.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30414"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MQCE/i5bgAra7z5fuhbdAax6UM6OQUtUUKGdlD0d8tA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 11:55:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "70umqd7dfi"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/MinesweeperDotNET.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-MQCE/i5bgAra7z5fuhbdAax6UM6OQUtUUKGdlD0d8tA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MinesweeperDotNET.pdb",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MinesweeperDotNET.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "46984"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Z58uBnlkYNUDkcI3T6TKdWBcTJBC/rZBWDUDOD8ePWw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 11:55:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Z58uBnlkYNUDkcI3T6TKdWBcTJBC/rZBWDUDOD8ePWw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MinesweeperDotNET.pdb",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\usigq2tkez-70umqd7dfi.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000032878514"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30414"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MQCE/i5bgAra7z5fuhbdAax6UM6OQUtUUKGdlD0d8tA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 11:55:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Z58uBnlkYNUDkcI3T6TKdWBcTJBC/rZBWDUDOD8ePWw=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Z58uBnlkYNUDkcI3T6TKdWBcTJBC/rZBWDUDOD8ePWw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MinesweeperDotNET.pdb.gz",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\usigq2tkez-70umqd7dfi.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30414"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MQCE/i5bgAra7z5fuhbdAax6UM6OQUtUUKGdlD0d8tA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 11:55:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MQCE/i5bgAra7z5fuhbdAax6UM6OQUtUUKGdlD0d8tA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MinesweeperDotNET.wa30teg7s8.wasm",
+      "Route": "_framework/MinesweeperDotNET.07hpqv72s1.wasm",
       "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MinesweeperDotNET.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -41289,7 +40991,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53013"
+          "Value": "54549"
         },
         {
           "Name": "Content-Type",
@@ -41297,11 +40999,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SPqyVNGE4XLEc1hFI0aQmaQAqDXDymSBPmQRlpF/7zc=\""
+          "Value": "\"TEmMsLbDfDx7kTbXFOZR6sxunWWQYPQmQPlgNAf2tdU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:45:19 GMT"
+          "Value": "Wed, 14 May 2025 14:32:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41311,7 +41013,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wa30teg7s8"
+          "Value": "07hpqv72s1"
         },
         {
           "Name": "label",
@@ -41319,18 +41021,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SPqyVNGE4XLEc1hFI0aQmaQAqDXDymSBPmQRlpF/7zc="
+          "Value": "sha256-TEmMsLbDfDx7kTbXFOZR6sxunWWQYPQmQPlgNAf2tdU="
         }
       ]
     },
     {
-      "Route": "_framework/MinesweeperDotNET.wa30teg7s8.wasm",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\s7o3zfsf1t-wa30teg7s8.gz",
+      "Route": "_framework/MinesweeperDotNET.07hpqv72s1.wasm",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\s7o3zfsf1t-07hpqv72s1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000042416016"
+          "Quality": "0.000041032375"
         }
       ],
       "ResponseHeaders": [
@@ -41340,15 +41042,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23575"
+          "Value": "24370"
         },
         {
           "Name": "ETag",
-          "Value": "\"yiwqFqVyfITPfopSpyC31AhFK8wERPTxjQc1idkcG+4=\""
+          "Value": "\"kzpyjhlYvDJazZu5udGprjJZnAkVQnQygJ6lKFPn1h8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:45:22 GMT"
+          "Value": "Wed, 14 May 2025 14:32:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41368,13 +41070,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SPqyVNGE4XLEc1hFI0aQmaQAqDXDymSBPmQRlpF/7zc=\""
+          "Value": "W/\"TEmMsLbDfDx7kTbXFOZR6sxunWWQYPQmQPlgNAf2tdU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wa30teg7s8"
+          "Value": "07hpqv72s1"
         },
         {
           "Name": "label",
@@ -41382,13 +41084,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SPqyVNGE4XLEc1hFI0aQmaQAqDXDymSBPmQRlpF/7zc="
+          "Value": "sha256-TEmMsLbDfDx7kTbXFOZR6sxunWWQYPQmQPlgNAf2tdU="
         }
       ]
     },
     {
-      "Route": "_framework/MinesweeperDotNET.wa30teg7s8.wasm.gz",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\s7o3zfsf1t-wa30teg7s8.gz",
+      "Route": "_framework/MinesweeperDotNET.07hpqv72s1.wasm.gz",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\s7o3zfsf1t-07hpqv72s1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -41397,7 +41099,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23575"
+          "Value": "24370"
         },
         {
           "Name": "Content-Type",
@@ -41405,11 +41107,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yiwqFqVyfITPfopSpyC31AhFK8wERPTxjQc1idkcG+4=\""
+          "Value": "\"kzpyjhlYvDJazZu5udGprjJZnAkVQnQygJ6lKFPn1h8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:45:22 GMT"
+          "Value": "Wed, 14 May 2025 14:32:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41427,7 +41129,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wa30teg7s8"
+          "Value": "07hpqv72s1"
         },
         {
           "Name": "label",
@@ -41435,7 +41137,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yiwqFqVyfITPfopSpyC31AhFK8wERPTxjQc1idkcG+4="
+          "Value": "sha256-kzpyjhlYvDJazZu5udGprjJZnAkVQnQygJ6lKFPn1h8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MinesweeperDotNET.m89jvsark9.pdb",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MinesweeperDotNET.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"enuuXxffb3X+I4Ajji+wxv1aSvkktoUPTwLeiloP0yw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 14:32:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m89jvsark9"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MinesweeperDotNET.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-enuuXxffb3X+I4Ajji+wxv1aSvkktoUPTwLeiloP0yw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MinesweeperDotNET.m89jvsark9.pdb",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\usigq2tkez-m89jvsark9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032569046"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30703"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RscoscKS7njilWIk2zVdQRkj3Ar3qRB7h7MJiOEb6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 14:32:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"enuuXxffb3X+I4Ajji+wxv1aSvkktoUPTwLeiloP0yw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m89jvsark9"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MinesweeperDotNET.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-enuuXxffb3X+I4Ajji+wxv1aSvkktoUPTwLeiloP0yw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MinesweeperDotNET.m89jvsark9.pdb.gz",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\usigq2tkez-m89jvsark9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30703"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RscoscKS7njilWIk2zVdQRkj3Ar3qRB7h7MJiOEb6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 14:32:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m89jvsark9"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MinesweeperDotNET.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2RscoscKS7njilWIk2zVdQRkj3Ar3qRB7h7MJiOEb6I="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MinesweeperDotNET.pdb",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MinesweeperDotNET.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"enuuXxffb3X+I4Ajji+wxv1aSvkktoUPTwLeiloP0yw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 14:32:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-enuuXxffb3X+I4Ajji+wxv1aSvkktoUPTwLeiloP0yw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MinesweeperDotNET.pdb",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\usigq2tkez-m89jvsark9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032569046"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30703"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RscoscKS7njilWIk2zVdQRkj3Ar3qRB7h7MJiOEb6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 14:32:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"enuuXxffb3X+I4Ajji+wxv1aSvkktoUPTwLeiloP0yw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-enuuXxffb3X+I4Ajji+wxv1aSvkktoUPTwLeiloP0yw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MinesweeperDotNET.pdb.gz",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\usigq2tkez-m89jvsark9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30703"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RscoscKS7njilWIk2zVdQRkj3Ar3qRB7h7MJiOEb6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 14:32:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2RscoscKS7njilWIk2zVdQRkj3Ar3qRB7h7MJiOEb6I="
         }
       ]
     },
@@ -41450,7 +41450,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53013"
+          "Value": "54549"
         },
         {
           "Name": "Content-Type",
@@ -41458,11 +41458,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SPqyVNGE4XLEc1hFI0aQmaQAqDXDymSBPmQRlpF/7zc=\""
+          "Value": "\"TEmMsLbDfDx7kTbXFOZR6sxunWWQYPQmQPlgNAf2tdU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:45:19 GMT"
+          "Value": "Wed, 14 May 2025 14:32:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41472,18 +41472,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SPqyVNGE4XLEc1hFI0aQmaQAqDXDymSBPmQRlpF/7zc="
+          "Value": "sha256-TEmMsLbDfDx7kTbXFOZR6sxunWWQYPQmQPlgNAf2tdU="
         }
       ]
     },
     {
       "Route": "_framework/MinesweeperDotNET.wasm",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\s7o3zfsf1t-wa30teg7s8.gz",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\s7o3zfsf1t-07hpqv72s1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000042416016"
+          "Quality": "0.000041032375"
         }
       ],
       "ResponseHeaders": [
@@ -41493,15 +41493,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23575"
+          "Value": "24370"
         },
         {
           "Name": "ETag",
-          "Value": "\"yiwqFqVyfITPfopSpyC31AhFK8wERPTxjQc1idkcG+4=\""
+          "Value": "\"kzpyjhlYvDJazZu5udGprjJZnAkVQnQygJ6lKFPn1h8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:45:22 GMT"
+          "Value": "Wed, 14 May 2025 14:32:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41521,19 +41521,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SPqyVNGE4XLEc1hFI0aQmaQAqDXDymSBPmQRlpF/7zc=\""
+          "Value": "W/\"TEmMsLbDfDx7kTbXFOZR6sxunWWQYPQmQPlgNAf2tdU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SPqyVNGE4XLEc1hFI0aQmaQAqDXDymSBPmQRlpF/7zc="
+          "Value": "sha256-TEmMsLbDfDx7kTbXFOZR6sxunWWQYPQmQPlgNAf2tdU="
         }
       ]
     },
     {
       "Route": "_framework/MinesweeperDotNET.wasm.gz",
-      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\s7o3zfsf1t-wa30teg7s8.gz",
+      "AssetFile": "D:\\Documents\\Projects\\dotNET\\minesweeperdotnet\\obj\\Debug\\net9.0\\compressed\\s7o3zfsf1t-07hpqv72s1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -41542,7 +41542,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23575"
+          "Value": "24370"
         },
         {
           "Name": "Content-Type",
@@ -41550,11 +41550,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yiwqFqVyfITPfopSpyC31AhFK8wERPTxjQc1idkcG+4=\""
+          "Value": "\"kzpyjhlYvDJazZu5udGprjJZnAkVQnQygJ6lKFPn1h8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:45:22 GMT"
+          "Value": "Wed, 14 May 2025 14:32:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41572,7 +41572,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yiwqFqVyfITPfopSpyC31AhFK8wERPTxjQc1idkcG+4="
+          "Value": "sha256-kzpyjhlYvDJazZu5udGprjJZnAkVQnQygJ6lKFPn1h8="
         }
       ]
     },

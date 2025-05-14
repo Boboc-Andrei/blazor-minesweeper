@@ -1,5 +1,6 @@
 ﻿@page "/"
 @using MinesweeperDotNET.Pages;
+@using MinesweeperAPI.Services;
 @inject GameManager gameManager;
 
 
@@ -38,6 +39,7 @@
 @code {
     [Inject]
     private HttpClient Http { get; set; }
+    [Inject] GameRecordsAPIService apiService { get; set; }
     MinesweeperGrid Grid => gameManager.Grid;
     private CellView[,] cellViews { get; set; }
     private bool GridInitialized = false;
@@ -71,6 +73,7 @@
         GameEvents.OnFlagSet += SetFlag;
         GameEvents.OnFlagCounterUpdate += UpdateMinesLeftCount;
         GameEvents.OnCellsHighlighted += HighlightCells;
+        GameEvents.OnGameLogged += LogGame;
 
         timer = new System.Timers.Timer(100);
 
@@ -132,5 +135,10 @@
         {
             cellViews[row, col].HighlightAsync();
         }
+    }
+
+    public async void LogGame(MinesweeperGameRecord log)
+    {
+        await apiService.AddGameRecordAsync(log);
     }
 }

@@ -6,6 +6,8 @@ using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using Microsoft.AspNetCore.Components;
+using MinesweeperAPI.Services;
 using MinesweeperDotNET;
 using MinesweeperDotNET.Game;
 using MinesweeperDotNET.Models;
@@ -169,6 +171,8 @@ public class GameManager
         };
         string s =
             $"Game with Id {serializedGrid.Id} log:\nGame won: {gameWon}\nUsed hints: {HintsUsed}\n Time: {runningTime}\nTime with hints: {runningTime + HintsUsed * hintTimePenalty}";
+
+        GameEvents.GameLogged(log);
         Console.WriteLine(s);
     }
 

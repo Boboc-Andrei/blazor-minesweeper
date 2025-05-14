@@ -27,6 +27,7 @@ class GameEvents
     public static event Action<Difficulty>? OnDifficultyChanged;
 
     public static event Action<List<(int, int)>>? OnUpdateActiveCells;
+    public static event Action<MinesweeperGameRecord>? OnGameLogged;
 
     public static void CellClicked(int row, int col) => OnCellClicked?.Invoke(row, col);
 
@@ -63,4 +64,6 @@ class GameEvents
     public static void PerformHintClicked() => OnPerformHintClicked?.Invoke();
 
     public static void SolveGridClicked() => OnSolveGridClicked?.Invoke();
+
+    public static void GameLogged(MinesweeperGameRecord log) => OnGameLogged?.Invoke(log);
 }

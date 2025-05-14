@@ -92,8 +92,6 @@ D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framewo
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\Microsoft.VisualBasic.gcchvdkxdm.wasm
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Primitives.weh8h3644m.wasm
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Registry.a32fqwbg5a.wasm
-D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\MinesweeperDotNET.70umqd7dfi.pdb
-D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\MinesweeperDotNET.wa30teg7s8.wasm
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\mscorlib.5q5u0swn6q.wasm
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\MySqlConnector.qqh4to9bka.wasm
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\netstandard.w8gk1pigg1.wasm
@@ -468,7 +466,6 @@ D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framewo
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Mvc.ApiExplorer.agkep702ee.wasm.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.abfgywtr1q.wasm.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\System.Data.DataSetExtensions.d8vm961ka5.wasm.gz
-D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\MinesweeperDotNET.wa30teg7s8.wasm.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.WebEncoders.5g1hzlp5lk.wasm.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.khrghkngt3.wasm.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Mvc.Razor.Extensions.tryceadyvs.wasm.gz
@@ -487,7 +484,6 @@ D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framewo
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.tzu7xu2jt9.wasm.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Intrinsics.jpq5ew51k4.wasm.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Relational.j60brhqlqt.wasm.gz
-D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\MinesweeperDotNET.70umqd7dfi.pdb.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Registry.a32fqwbg5a.wasm.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\System.Security.Claims.dh4jyvgd77.wasm.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XDocument.c8hpq78uqn.wasm.gz
@@ -1376,9 +1372,6 @@ D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\compressed\n81ta
 D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\compressed\dna8wt2bkp-tjcz0u77k5.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\compressed\a00wzhdfff-tptq2av103.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\compressed\1uqj47g6bo-lfu7j35m59.gz
-D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\compressed\s7o3zfsf1t-wa30teg7s8.gz
-D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\compressed\usigq2tkez-70umqd7dfi.gz
-D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\compressed\vy3jlp6fgb-wwjfrncry4.gz
 D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\staticwebassets.build.json
 D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\staticwebassets.development.json
 D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1393,3 +1386,10 @@ D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\MinesweeperDotNE
 D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\refint\MinesweeperDotNET.dll
 D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\MinesweeperDotNET.pdb
 D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\ref\MinesweeperDotNET.dll
+D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\MinesweeperDotNET.m89jvsark9.pdb
+D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\MinesweeperDotNET.07hpqv72s1.wasm
+D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\MinesweeperDotNET.07hpqv72s1.wasm.gz
+D:\Documents\Projects\dotNET\minesweeperdotnet\bin\Debug\net9.0\wwwroot\_framework\MinesweeperDotNET.m89jvsark9.pdb.gz
+D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\compressed\s7o3zfsf1t-07hpqv72s1.gz
+D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\compressed\usigq2tkez-m89jvsark9.gz
+D:\Documents\Projects\dotNET\minesweeperdotnet\obj\Debug\net9.0\compressed\vy3jlp6fgb-555lrmob0t.gz
